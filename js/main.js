@@ -127,6 +127,7 @@ function getZodiac(){
             document.getElementById('zodiacweakness').innerHTML = '<i>Weakness</i>: ' + chineseZodiac[i].weakness
             document.getElementById('best').innerHTML = '<i>Best Matches are</i>: ' + chineseZodiac[i].bestMatches
             document.getElementById('bad').innerHTML = '<i>Bad Matches are</i>: ' + chineseZodiac[i].badMatches
+            document.getElementById("chinesebirthdaypie").style.display='none';
             return
         }
 

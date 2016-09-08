@@ -42,6 +42,8 @@
 .zodiactext {
 	text-align: center;
 	color: #11BFFF;
+	animation-name: fadeIn;
+	animation-duration: 10s;
 }
 .zodiactext img {
 	width: 30%;
