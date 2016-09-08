@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- meta data -->
+	<meta charset="UTF-8">
+	<meta name="description" content="Zodiac Search">
+	<meta name="author" content="Melissa N @ Codify Academy">
+
+	<title>Zodiac Search</title>
+	<!-- Font Awesome Icons - fontawesome.io  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- css -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div>
+
+		<form>
+			<div class="form-group">
+				<h1>Enter your birth year.</h1>
+			</div>
+			
+			<div class="form-group">
+				<input id="zodiac" class="form-control" align="middle" placeholder="example:1999" >
+			</div>
+					
+			<div class="form-group">
+				<button type="button" onclick="getZodiac()" class="btn btn-success btn-lg"><b>Find out your Chinese Zodiac!</b></button>
+						
+			</div>
+		</form>
+
+			<img src="img/chinese-horoscope-birthday-pie.jpg" alt="chinesebirthday">
+	</div>
+	</div>
+	
+
+<div class="zodiactext">
+	
+	<div><h1 id="zodiacname"></h1></div>
+	<div><h3 id="zodiacyear"></h3></div>
+	<div><img id="zodiacimage"></div>
+	<div><h4 id="zodiacstrength"></h4></div>
+	<div><h4 id="zodiacweakness"></h4></div>
+	<div><h4 id="best"></h4></div>
+	<div><h4 id="bad"></h4></div>
+</div>
+
+
+
+	
+	<script src="js/main.js"></script>
+</body>
+</html>

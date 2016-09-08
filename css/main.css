@@ -1,0 +1,50 @@
+
+ body { 
+    text-align: center;
+	width: 100%;
+	background: #333;
+
+	background-size: cover;
+	background-position: center center;
+	
+	background-image: url('../img/galactic-stars.jpg');
+ }
+
+ .container {
+ 	animation-name: fadeIn;
+	animation-duration: 4s;
+ }
+
+ #zodiac {
+    width: 50%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+ }
+
+ .form-group h1 {
+ 	color: #11BFFF;
+ 	margin: 1%;
+ }
+
+ .form-group button {
+	border-color: #11BFFF;
+
+}
+.form-group button:hover {
+	background-color: #11BFFF;
+}
+.form-group button:focus {
+	background-color: #11BFFF;
+}
+.zodiactext {
+	text-align: center;
+	color: #11BFFF;
+}
+.zodiactext img {
+	width: 30%;
+	margin: 0% 35%;
+}
+
